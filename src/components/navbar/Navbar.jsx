@@ -3,7 +3,10 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-dark bg-danger navbar-expand-lg">
+      <nav
+        className="navbar navbar-dark navbar-expand-lg"
+        style={{ background: "linear-gradient(to left, #FFC371, #FF5F6D)" }}
+      >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Navbar
@@ -33,7 +36,9 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">Task Manager</a>
+                <a className="nav-link active" href="#">
+                  Task Manager
+                </a>
               </li>
             </ul>
 
@@ -42,7 +47,8 @@ const Navbar = () => {
                 className="form-control me-2"
                 type="search"
                 placeholder="Search"
-                aria-label="Search" style={{width:"300px"}} 
+                aria-label="Search"
+                style={{ width: "300px" }}
               />
               <button className="btn btn-secondary" type="submit">
                 Search
