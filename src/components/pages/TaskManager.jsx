@@ -7,7 +7,7 @@ const TaskManager = () => {
         <div className='container'>
             <div className="row">
                 <div className="col-4">
-                    
+                    <h1>TaskManager</h1>
                 </div>
                 <div className="col-8">
 

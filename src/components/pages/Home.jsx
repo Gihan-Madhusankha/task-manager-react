@@ -8,7 +8,12 @@ const Home = () => {
         <div className="row">
           <div className="col-6 d-flex align-items-center">
             <div>
-              <h1 className="text-start mb-5">LOREM lorem</h1>
+              <h1
+                className="text-start mb-5"
+                style={{ color: '#FF5F6D', fontWeight: "bold" }} 
+              >
+                LOREM PAGE
+              </h1>
               <p style={{ textAlign: "justify", fontSize: "18px" }}>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
                 odit eaque doloremque veritatis deserunt consequuntur corrupti
