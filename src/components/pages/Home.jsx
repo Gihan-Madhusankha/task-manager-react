@@ -10,7 +10,7 @@ const Home = () => {
             <div>
               <h1
                 className="text-start mb-5"
-                style={{ color: '#FF5F6D', fontWeight: "bold" }} 
+                style={{ color: "#FF5F6D", fontWeight: "bold" }}
               >
                 LOREM PAGE
               </h1>

@@ -1,0 +1,30 @@
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style the table headers */
+th {
+  background-color: #FFC371;
+  color: white;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Style the table rows */
+tr:nth-child(even) {
+  background-color: #FFDAB9;
+}
+
+/* Style the table cells */
+td {
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Add hover effect to table rows */
+tr:hover {
+  background-color: #FFA07A;
+}
